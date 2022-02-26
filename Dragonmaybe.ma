@@ -1,6 +1,6 @@
 //Maya ASCII 2022 scene
 //Name: Dragonmaybe.ma
-//Last modified: Fri, Feb 25, 2022 10:52:22 PM
+//Last modified: Fri, Feb 25, 2022 11:06:40 PM
 //Codeset: 1252
 requires maya "2022";
 requires "mtoa" "5.0.0.1";
@@ -10,12 +10,12 @@ fileInfo "product" "Maya 2022";
 fileInfo "version" "2022";
 fileInfo "cutIdentifier" "202110272215-ad32f8f1e6";
 fileInfo "osv" "Windows 10 Home v2009 (Build: 22000)";
-fileInfo "UUID" "DD8893D7-4B2D-0BF9-F2E3-9CB60B9159BE";
+fileInfo "UUID" "91CEE697-49F1-E4C1-D9C9-0790D7B0BFDE";
 createNode transform -s -n "persp";
 	rename -uid "20866158-47C0-AFDE-0D16-D68AF746A1C4";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" -5.0120396910856533 6.2610889139439054 51.188122190833148 ;
-	setAttr ".r" -type "double3" -2.7383527360289217 -1807.3999999983164 -5.0113554555980669e-17 ;
+	setAttr ".t" -type "double3" -4.6922679526473505 4.7835962106257703 51.276317456720612 ;
+	setAttr ".r" -type "double3" -0.93835273604145508 -1806.9999999981508 -2.503468821852289e-17 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "7DD3816D-425C-384E-CC9A-D0B7A6FA2BF4";
 	setAttr -k off ".v" no;
